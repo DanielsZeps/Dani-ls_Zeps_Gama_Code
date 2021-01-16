@@ -1,0 +1,98 @@
+.platformGrassTile
+{
+	background-image: url("../images/Forground/Grass_Tile.png");
+	background-color: C16824;
+	background-repeat: repeat-x;
+	position: absolute;
+	z-index: 11;
+}
+.platformStoneTile
+{
+	background-image: url("../images/Forground/Stone_Tile.png");
+	position: absolute;
+	z-index: 11;
+}
+.backgroundStoneTile
+{
+	background-image: url("../images/Background/Stone_Tile.png");
+	position: absolute;
+	z-index: 10;
+}
+.platformSteelTile
+{
+	background-image: url("../images/Forground/Steel_Tile.png");
+	position: absolute;
+	z-index: 22;
+}
+.platformBlack
+{
+	background-color: black;
+	position: absolute;
+	z-index: 21;
+}
+.platformDoor
+{
+	outline: solid black 1px;
+	background-color: lightgrey;
+	position: absolute;
+	z-index: 10;
+}
+.platformGroundTile
+{
+	background-image: url("../images/Forground/Ground_Tile.png");
+	position: absolute;
+	z-index: 11;
+	text-align: center;
+}
+.backgroundGroundTile
+{
+	background-image: url("../images/Background/Ground_Tile.png");
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+}
+.platformSteelTileOpenable
+{
+	outline: green solid 2.5px;
+	background-image: url("../images/Forground/Steel_Tile.png");
+	position: absolute;
+	z-index: 11;
+	text-align: center;
+}
+.platformBirchTile
+{
+	background-image: url("../images/Forground/Birch_Tile.png");
+	position: absolute;
+	z-index: 11;
+	text-align: center;
+}
+.backgroundBirchTile
+{
+	background-image: url("../images/Background/Birch_Tile.png");
+	position: absolute;
+	z-index: 9;
+	text-align: center;
+}
+.platformWhite
+{
+	outline: black solid 1px;
+	background-color: white;
+	position: absolute;
+	z-index: 11;
+	text-align: center;
+}
+.platformFinal
+{
+	outline: yellow solid 3px;
+	background-color: red;
+	position: absolute;
+	z-index: 11;
+	text-align: center;
+}
+.enemySnake
+{
+	background-image: url("../images/Forground/Python_3.png");
+	background-size: cover;
+	position: absolute;
+	z-index: 15;
+}

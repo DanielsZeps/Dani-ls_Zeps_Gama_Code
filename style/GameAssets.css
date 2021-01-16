@@ -1,0 +1,44 @@
+.arrowKey
+{
+  background-image: url("../images/Forground/Arrow.png");
+  background-size: cover;
+  background-color: white;
+  position: absolute;
+}
+.tipText
+{
+  background-image: url("../images/Forground/Sign_Style_One.png");
+  background-size: cover;
+  position: absolute;
+  color: white;
+}
+.directionFlag
+{
+  background-image: url("../images/Forground/Direction_Flag.png");
+  background-size: cover;
+  position: absolute;
+  z-index: 30;
+}
+ul
+{
+  list-style-position: inside;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#player
+{
+	position: absolute;
+	background-image: url("../images/Forground/Python_1.png");
+	background-size: cover;
+	z-index: 20;
+}
+#Player_Scores tr:nth-child(odd)
+{
+  background-color: darkgrey;
+}
+#Player_Scores tr:nth-child(even)
+{
+  background-color: lightgrey;
+  color: black;
+}
